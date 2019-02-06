@@ -1,0 +1,12 @@
+
+Given the number of inputs, perceptrons, and outputs I constructed 2D Tensor layers
+with random values. The forward pass uses the dot product and sigmoid function to progress
+from layer i to layer i+1. The final output is that of sigmoid function of the last output layer.
+
+The weights for each gate were computed and can be scaled further to increase the accuracy. As of
+now, the weights have an output either x > 0.99 or x < 0.001 indicating a 1 or 0. Scaling by a factor
+of 5 or 10 would further push the results toward 1 and 0, but it seems like overkill.
+
+The XOR gate was constructed with 2 layers being set. The first perceptron effectively giving equivalent
+weights to that of a NAND gate and the second equivalent to an OR gate. The last layer is just an AND gate.
+The same result could have been achieved using a combination of the previously constructed gates (AND, OR, NOT).
