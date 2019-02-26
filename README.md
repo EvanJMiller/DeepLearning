@@ -1,2 +1,2 @@
 # DeepLearning
-Deep Learning (BME 395) course work
+Deep Learning (BME 495) course work
